@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(94, 195, 235);
+}
+
+main {
+  background-color: white;
+  width: 80%;
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.lines {
+  height: 20px;
+  text-align: right;
+}
+.line1 {
+  width: 100%;
+}
+.line2 {
+  width: 97%;
+  margin-left: auto;
+}
+.line3 {
+  width: 95%;
+  margin-left: auto;
+}
+.lines img {
+  position: relative;
+  right: -2px;
+  top: -40px;
+}
+
+h1 {
+  font-family: "Mea Culpa";
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: gainsboro;
+  text-shadow: 1px 1px 1px rgb(2, 83, 116);
+}
+
+.text {
+  display: inline-flex;
+  text-align: end;
+  font-family: "Mea Culpa";
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-right: 20px;
+}
+
+.text img {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+}
+.bild {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes {
+  width: 200px;
+}
+.img-beet {
+  width: 100px;
+}
+footer {
+  margin-top: 20px;
+}
+footer p {
+  font-size: 15px;
+  margin: 0px;
+  text-align: center;
+    font-family: sans-serif;
+    color: rgb(71, 71, 71);
+}
