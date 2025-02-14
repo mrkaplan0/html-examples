@@ -23,7 +23,7 @@ cursor:pointer;
 }
 
 
-.links a{
+.links a{margin: 10px;
     text-decoration: none;
     color: gray;
 }
@@ -57,7 +57,7 @@ header{width: 100%;
     border-bottom: 1px solid white;
 }
 
-header a{
+header a{margin-left: 10px;
     color: white;
     padding: 40px 20px;
     text-decoration: none;
@@ -87,7 +87,9 @@ header a:focus{
     box-shadow: 0 0 10px gray;
     margin-bottom: 20px;
 }
-.my-form div{display: flex;
+.my-form div{
+    width: 90%;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 margin-bottom: 10px;}
@@ -106,6 +108,9 @@ margin-bottom: 10px;}
 }
 
 .my-form:target{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: 0.5s all;
 }

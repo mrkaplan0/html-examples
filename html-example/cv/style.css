@@ -27,6 +27,9 @@ header h1 {
   text-align: center;
   color: #d4d4d4;
 }
+.info a {text-decoration: none;
+color: #000000;
+}
 
 .profil-photo {
   width: 35vh;
@@ -48,7 +51,7 @@ header h1 {
 /* Main part */
 .structure {
   background-color: #c26c10f5;
-  min-height: 55vh;
+  min-height: 65vh;
   margin: 0 5% 10px 5%;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
@@ -56,9 +59,11 @@ header h1 {
 
 .name-container {
   margin: 0 5%;
+  height: 7em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 20px;
   position: sticky;
   top: 0;
@@ -78,19 +83,22 @@ header h1 {
   text-align: center;
 }
 
-/* About me */
-#about h2,p {
+/* Section inner design */
+.inner-design h2,h3,p {
   margin: 0 5%;
-  padding: 10px;
+  padding: 3px;
   text-align: left;
- /*  color: #d4d4d4; */
+ 
   font-size: 1.1em;
   
 }
-#about h2 {
+.inner-design h2 {
+  color: #2a2b0c;
   font-size: 2em;
-  
+  padding-top: 40px;
 }
+
+/* About me */
 .informations{
   margin: 20px 10%;
 }
@@ -101,4 +109,13 @@ color: #2a2b0c;
 }
 .langs{
   margin-left: 5em;
+}
+
+/* Experience */
+#experience {
+  min-height: 30vh;
+}
+/* Education */
+#education {
+  min-height: 65vh;
 }
