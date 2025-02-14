@@ -1,31 +1,104 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 1em;
 }
 body {
-  /* Ortalar */
-  background-origin: border-box;
-  background-color: lightslategrey;
+  background-color: #2a2b0c;
 }
 .header {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url("background1.jpg");
+  background-size: cover;
+  min-height: 60vh;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+  color: #d4d4d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  position: sticky;
+  top: 10px;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  color: #d4d4d4;
+}
+
+.profil-photo {
+  width: 35vh;
+  height: 41vh;
+  border-radius: 20px;
+  border: 5px solid #2a2b0c;
+  margin-top: 50px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  background-image: url("photo.jpg");
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: inherit;
+}
+
+/* Main part */
+.structure {
+  background-color: #c26c10f5;
+  min-height: 55vh;
+  margin: 0 5% 10px 5%;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.name-container {
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  text-shadow: 0px 2px 6px #000000;
+  background-color: #2a2b0c;
+  color: #d4d4d4;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.name-container p {
+  font-size: 1.4em;
+  text-align: center;
+}
+.my-name {
+  font-size: 3em;
+  font-weight: bold;
   text-align: center;
 }
 
-main {
-  background-image: url("background.jpg");
-  background-size: cover;
-  min-height: 85vh;
-  margin: 10px 10%;
-  border-radius: 10px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+/* About me */
+#about h2,p {
+  margin: 0 5%;
+  padding: 10px;
+  text-align: left;
+ /*  color: #d4d4d4; */
+  font-size: 1.1em;
+  
 }
-
-.container {
-  padding: 20px;
-  background-color: rgba(117, 117, 117, 0.7);
-  min-height: inherit;
-  border-radius: 10px;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+#about h2 {
+  font-size: 2em;
+  
+}
+.informations{
+  margin: 20px 10%;
+}
+.info {margin-bottom: 5px;}
+.info i{
+  margin-right: 10px;
+color: #2a2b0c;
+}
+.langs{
+  margin-left: 5em;
 }

@@ -6,7 +6,22 @@
     <title>Document</title>
 
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-items: center;
+      }  
+      
+      h1{position: fixed;
+      top: 10px;
+      background-color: blanchedalmond;
+      padding: 10px;
+    }
       #text1 {
+        position: relative;
+        top: 20px;
         background-color: black;
         color: white;
         padding: 20px;
@@ -19,9 +34,32 @@
         column-rule-width: 2px;
         text-indent: 20px;
       }
+      .box {
+        position: relative;
+        top: 100px;
+        width: 400px;
+        height: 200px;
+        background-color: yellow;
+        border-radius: 0 20px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .fusszeile {
+        position: fixed;
+        bottom: 0;
+        background-color: blanchedalmond;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
+    <h1>Ich bin Überschrift</h1>
+    <div class="box"><h3>Ich bin kleine Überschrift...</h3></div>
     <div id="text1">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi
       dolore cupiditate adipisci ratione, velit consectetur harum laborum itaque
@@ -87,5 +125,6 @@
       laborum quod laboriosam, officiis at deserunt, ex rerum facilis! Omnis eum
       cum a nihil! Quo ad id exercitationem aliquid illum quaerat?
     </div>
+    <div class="fusszeile">&copy; Ömer Kaplan 14.02.2025</div>
   </body>
 </html>

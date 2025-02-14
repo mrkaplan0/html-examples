@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.anmelden{
+    padding: 10px 100px;
+    border-radius: 10px;
+cursor:pointer;
+}
+
+.anmelden:hover{
+    background-color: orange;
+    box-shadow: 0 0 10px orange;
+}
+
+
+.links a{
+    text-decoration: none;
+    color: gray;
+}
+
+.links a:visited{
+    color: green;
+}
+.links a:hover{
+    color: blue;
+    text-decoration: underline blue dotted 3px;
+}
+.links a:focus{
+    color: red; 
+    text-decoration: underline;
+}
+.links a:active{
+    color: black; 
+    text-decoration: underline double 3px;
+}
+
+/*Navigationsleiste*/
+
+header{width: 100%;
+    background-color:#5E601B ;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+    border-bottom: 1px solid white;
+}
+
+header a{
+    color: white;
+    padding: 40px 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #5E601B;
+    background-color: white;
+    padding: 30px 20px;
+    transition: 0.5s all;
+}
+header a:focus{
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    padding: 30px 20px;
+    transition: 0.5s all;
+}
+
+.my-form{
+    display: none;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 20px;
+}
+.my-form div{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+margin-bottom: 10px;}
+.my-form label{
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.my-form button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5E601B;
+    color: white;
+    cursor: pointer;
+}
+
+.my-form:target{
+    display: block;
+    transition: 0.5s all;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float ile Aside Kullanımı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden; /* Float temizleme */
+        }
+
+        img {
+            float: left;  /* Fotoğrafı sola hizala */
+            width: 200px;
+            height: auto;
+            margin-right: 20px; /* Sağında boşluk bırak */
+            border-radius: 50%;
+        }
+
+        aside { margin: 10px;
+            float: right; /* `aside` sağ tarafa hizalanır */
+            width: 300px;
+            background-color: #f8f8f8;
+            padding: 15px;
+            border-left: 4px solid #007BFF;
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .clear {
+            clear: both; /* Float hatalarını önlemek için */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://kibrisgercekcom.teimg.com/kibrisgercek-com/uploads/2024/08/340753.jpg" alt="Sporcu">
+        
+        <aside>
+            <h3>Hızlı Bilgiler</h3>
+            <p>Bu sporcu, 2024 Olimpiyatları'nda yarışacak en genç atletlerden biri.</p>
+        </aside>
+
+        <p>2024 Olimpiyatları, birçok yeni spor dalını ve genç yetenekleri içerecek. Dünyanın dört bir yanından gelen sporcular, farklı branşlarda mücadele edecek.</p>
+
+        <div class="clear"></div> <!-- Float hatalarını temizler -->
+    </div>
+
+</body>
+</html>
