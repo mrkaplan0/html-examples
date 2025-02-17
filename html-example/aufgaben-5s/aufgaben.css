@@ -114,3 +114,22 @@ margin-bottom: 10px;}
     align-items: center;
     transition: 0.5s all;
 }
+
+h2{
+    margin: 20px;
+}
+
+.bt-text{
+    text-align: justify;
+    margin: 20px 20%;
+    font-size: 20px;
+}
+.bt-text::first-letter{
+    font-size: 60px;
+    font-weight: bold;
+    color: #F0F0F0;
+    padding: 10px 20px;
+    margin: 4px;
+    background-color: #5E601B;
+    float: left;
+}

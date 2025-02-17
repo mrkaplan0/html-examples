@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Aufgaben</title>
     <link rel="stylesheet" href="aufgaben.css" />
   </head>
   <body>
@@ -14,28 +14,89 @@
       <a href="">Preisliste</a>
       <a href="">Kontakt</a>
     </header>
-    <button id="anmelden-button" class="anmelden" onclick="window.location.href='#form'">Zur Anmeldung</button>
+    <button
+      id="anmelden-button"
+      class="anmelden"
+      onclick="window.location.href='#form'"
+    >
+      Zur Anmeldung
+    </button>
     <br />
     <br />
     <form id="form" class="my-form" action="">
-      
       <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" />
       </div>
-      <div><label for="email">Email:</label>
-      <input type="email" id="email" name="email" /></div>
-      <div> <label for="password">Passwort:</label>
-      <input type="password" id="password" name="password" /></div>
-     
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" />
+      </div>
 
-      <button class="anmelden" onclick="window.location.href='#header'">Schließen</button>
+      <button class="anmelden" onclick="window.location.href='#header'">
+        Schließen
+      </button>
     </form>
     <div class="links">
-      <a href="otherpage.html"> Link 1</a>
-      <a href="#"> Link 2</a>
-      <a href="#"> Link 3</a>
-      <a href="#"> Link 4</a>
+      <a href="otherpage.html"> Wo ist Deutscher Bundestag?</a>
+      <a href="CELEX_32016R0679_DE_TXT.pdf" target="myiframe"> Verordnungen</a>
+      <a href="BGB.pdf" target="myiframe"> Bürgerliches Gesetzbuch</a>
     </div>
+    <br /><br /><br />
+    <iframe
+      class="pdf"
+      name="myiframe"
+      src="CELEX_32016R0679_DE_TXT.pdf"
+      width="800"
+      height="500"
+    >
+    </iframe>
+    <h2>Was bedeutet DSGVO?</h2>
+    <iframe
+      width="800"
+      height="500"
+      src="https://www.youtube.com/embed/xFnkDxccp2g?si=xWcUEHjE5O2iI0Dx&amp;controls=0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <p class="bt-text">
+      Der Deutsche Bundestag[2] (Abkürzung BT)[3] ist die Volksvertretung sowie
+      als Parlament das gesetzgebende Organ der Bundesrepublik Deutschland mit
+      Sitz in Berlin.[4] Der Bundestag wird im politischen System Deutschlands
+      als einziges Verfassungsorgan des Bundes unmittelbar vom Staatsvolk der
+      deutschen Staatsbürger gewählt (Art. 20 Abs. 2 Satz 2 GG i. V. m. Art. 38
+      GG).[5][6] Als Repräsentationsorgan handelt der Bundestag bei Wahrnehmung
+      seiner Aufgaben aus eigenem Recht, nicht kraft Delegation, Auftrags oder
+      ihm von dritter Seite erteilter Vertretungsmacht.[2] Die Entscheidungen,
+      die er trifft, werden dem deutschen Volk – wie die Entscheidungen der
+      übrigen Staatsorgane – zugerechnet; „der Wille des Parlaments gilt als
+      (hypothetischer) Volkswille".
+    </p>
+    <audio controls>
+      <source src="Lukrembo - Travel (freetouse.com).mp3" type="audio/mpeg" />
+    </audio>
+    <video width="320" height="240" controls>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+
+    <br><br><br>
+    <table>
+        <thead>
+          
+        </thead>
+    </table>
   </body>
 </html>
